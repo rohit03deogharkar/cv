@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)http://127.0.0.1:5500/CSS-My%20Site/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <title>I am Rohit</title>
+<link rel="stylesheet" href="./I am Rohit_files/style.css"><link rel="icon" href="http://127.0.0.1:5500/CSS-My%20Site/favicon.ico"><link href="./I am Rohit_files/css2" rel="stylesheet"></head>
+
+<body>
+  <div class="topContainer">
+    <img class="top-cloud" src="./I am Rohit_files/cloud.png" alt="">
+    <h1>I am Rohit.</h1>
+    <h2>Just another Geek.</h2>
+    <img class="bottom-cloud" src="./I am Rohit_files/cloud.png" alt="">
+    <img src="./I am Rohit_files/mountain.png" alt="">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="propic" src="./I am Rohit_files/myavatar.png" alt="propic">
+      <h2>Hello.</h2>
+      <p>I am a student at Patkar Varde College. Learning varried technologies. Stay Up-to-Date.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="skill-gif" src="./I am Rohit_files/skillsgif.gif" alt="gif">
+        <h3>Desing and Development</h3>
+        <p>Basic knowledge of programming. Works on Java Core &amp; Python. HTML &amp; CSS</p>
+      </div>
+      <div class="skill-row">
+        <img class="entertainment" src="./I am Rohit_files/entertainment.png" alt="gif">
+        <h3>Enterntainment Hunger</h3>
+        <p>My best skill undoubtedly is binging movies and TV shows.😁</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Code, Content and Chill?</h3>
+      <p>Love binging content as much as I do? Lets talk about the Nerdy trait we share.</p>
+      <a class="btn" href="mailto:rohitdeogharkar03@email.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://gmail.com/">Email</a>
+
+    <p>© Rohit Deogharkar.</p>
+  </div>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
